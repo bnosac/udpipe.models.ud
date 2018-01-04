@@ -10,17 +10,6 @@ This repository is a collection of linguistic models made with the udpipe R pack
 - The R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
 - The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
-## General
-
-The subdirectories contain the models which have .udpipe extension as well as the R code and the log which was used to generate the model.
-If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
-
-If you want to build a model just proceed as follows (example on dutch)
-
-```
-Rscript dutch/train.R > dutch/train.log
-```
-
 ## Currently available models
 
 - Dutch
@@ -53,6 +42,17 @@ x
    doc1            1           1        5    wymaga   wymagac VERB         fin:sg:ter:imperf                               Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin             0    root
    doc1            1           1        6   remontu    remont NOUN           subst:sg:gen:m3                                                  Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing             5     obj
 ...
+```
+
+## Reproduce
+
+The subdirectories contain the models which have .udpipe extension as well as the R code and the log which was used to generate the model.
+If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
+
+If you want to build a model just proceed as follows (example on dutch)
+
+```
+Rscript dutch/train.R > dutch/train.log
 ```
 
 ## Support in text mining
