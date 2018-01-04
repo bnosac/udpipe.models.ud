@@ -2,17 +2,9 @@
 
 This repository is a collection of linguistic models made with the udpipe R package (https://CRAN.R-project.org/package=udpipe). 
 
-## License
-
-- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0 (that repository contains a lot more models for many more languages but these were released under a non-commercial license).
-- Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies that you have obtained.
-- The license for every model included in this repository is specified in the appropriate src/treebank directory. 
-- The .R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
-- The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
-
 ## Available models
 
-The models are located in the models folder
+The models are located in the models folder and allow to do Tokenisation, POS tagging, Lemmatisation and Dependency Parsing for the following languages.
 
 | Language  | model name                               | size  | data source          | license      |
 | ----------|------------------------------------------| -----:|----------------------|--------------|
@@ -61,12 +53,20 @@ x
 ...
 ```
 
-## Reproduce
+## License
 
-In order to reproduce the model, execute the train.R code inside the src/treebank folders. The src/treebank folders the R code and the log which was used to generate the model and contains as well accuracy statistics.
+- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0 (that repository contains a lot more models for many more languages but these were released under a non-commercial license).
+- Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies that you have obtained.
+- The license for every model included in this repository is specified in the appropriate src/treebank directory. 
+- The .R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
+- The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
+
+## Reproducibility
+
+In order to reproduce the model, execute the train.R code inside the src/treebank folders. The src/treebank folders contain the R code and the log which was used to generate the model. The log contains as well accuracy statistics of the model.
 If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
 
-If you want to build a model just proceed as follows (example on dutch)
+If you want to reproduce model building, just proceed as follows (example on dutch) and wait a few hours depending on your CPU power.
 
 ```
 Rscript src/dutch/train.R > src/dutch/train.log
