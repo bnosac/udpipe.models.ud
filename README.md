@@ -14,6 +14,7 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 | Language        | model name                                      | model size  | data source         |
 | ----------------|:-----------------------------------------------:| -----------:| -------------------:|
+| Croatian        | croatian/hr-ud-2.1-20180104.udpipe              | xxx MB      | UD_Croatian         |
 | Dutch           | dutch/nl-ud-2.1-20180104.udpipe                 | xxx MB      | UD_Dutch            |
 | English         | english/en-ud-2.1-20180104.udpipe               | xxx MB      | UD_English          |
 | French          | fr_sequoia-ud-2.1-20180104.udpipe               | xxx MB      | UD_French-Sequoia   |
