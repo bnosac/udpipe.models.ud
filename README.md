@@ -27,6 +27,7 @@ This repository is a collection of linguistic models made with the udpipe R pack
 | Polish          | polish/pl-ud-2.1-20180104.udpipe                    | 195 MB      | UD_Polish            |
 | Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe                | xxx MB      | UD_Portuguese        |
 | Romanian        | romanian/ro-ud-2.1-20180104.udpipe                  | xxx MB      | UD_Romanian          |
+| Spanish         | serbian/sr-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Serbian           |
 | Spanish         | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxx MB      | UD_Spanish-AnCora    |
 | Swedish         | swedish/sv-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Swedish           |
 
