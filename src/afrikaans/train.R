@@ -14,8 +14,9 @@ settings$modelname <- sprintf("%s-ud-2.1-%s.udpipe", settings$language, format(s
 settings$modeloutput <- sprintf("%s/%s", settings$language, settings$modelname)
 settings$modeloutput <- file.path(getwd(), "models", sprintf("%s", settings$modelname))
 print(settings)
-dir.create(sprintf("%s/data", settings$language))
-setwd(settings$language)
+setwd(sprintf("src/%s", settings$language))
+dir.create("data")
+
 
 if(TRUE){
   ## Download the conllu files
