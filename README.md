@@ -4,36 +4,38 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 ## License
 
-- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0 (that repository contains a lot more models for many more languages but under a non-commercial license).
+- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0 (that repository contains a lot more models for many more languages but these were released under a non-commercial license).
 - Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies that you have obtained.
-- The license for every model included in this repository is specified in the appropriate language/treebank directory. 
+- The license for every model included in this repository is specified in the appropriate src/treebank directory. 
 - The .R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
 - The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
-## Currently available models
+## Available models
 
-| Language  | model name                                          | size  | data source          | license      |
-| ----------|-----------------------------------------------------| -----:|----------------------|--------------|
-| Afrikaans | afrikaans/af-ud-2.1-20180104.udpipe                 | xxxMB | UD_Afrikaans         | CC BY-SA 4.0 |
-| Croatian  | croatian/hr-ud-2.1-20180104.udpipe                  | xxxMB | UD_Croatian          | CC BY-SA 4.0 |
-| Czech     | czech-cac/cs_cac-ud-2.1-20180104.udpipe             | xxxMB | UD_Czech-CAC         | CC BY-SA 4.0 |
-| Dutch     | dutch/nl-ud-2.1-20180104.udpipe                     | xxxMB | UD_Dutch             | CC BY-SA 4.0 |
-| English   | english/en-ud-2.1-20180104.udpipe                   | xxxMB | UD_English           | CC BY-SA 4.0 |
-| Finnish   | finnish/fi-ud-2.1-20180104.udpipe                   | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
-| French    | french-sequioa/fr_sequoia-ud-2.1-20180104.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
-| Irish     | irish/ga-ud-2.1-20180104.udpipe                     | xxxMB | UD_Irish             | CC BY-SA 3.0 |
-| Japanese  | japanese-ktc/ja_ktc-ud-2.1-20180104.udpipe          | xxxMB | UD_Japanese-KTC      | CC BY-SA 4.0 |
-| Norwegian | norwegian-bokmaal/no_bokmaal-ud-2.1-20180104.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
-| Persian   | persian/fa-ud-2.1-20180104.udpipe                   | xxxMB | UD_Persian           | CC BY-SA 4.0 |
-| Polish    | polish/pl-ud-2.1-20180104.udpipe                    | 195MB | UD_Polish            | GPL-3.0      |
-| Portuguese| portuguese/pt-ud-2.1-20180104.udpipe                | xxxMB | UD_Portuguese        | CC BY-SA 4.0 |
-| Romanian  | romanian/ro-ud-2.1-20180104.udpipe                  | xxxMB | UD_Romanian          | CC BY-SA 4.0 |
-| Serbian   | serbian/sr-ud-2.1-20180104.udpipe                   | xxxMB | UD_Serbian           | CC BY-SA 4.0 |
-| Slovak    | slovak/sk-ud-2.1-20180104.udpipe                    | xxxMB | UD_Slovak            | CC BY-SA 4.0 |
-| Spanish   | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
-| Swedish   | swedish/sv-ud-2.1-20180104.udpipe                   | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
+The models are located in the models folder
 
-Create an issue if languages from Universal Dependencies which you like to have included are missing.
+| Language  | model name                               | size  | data source          | license      |
+| ----------|------------------------------------------| -----:|----------------------|--------------|
+| Afrikaans | afrikaans-ud-2.1-20180104.udpipe         | xxxMB | UD_Afrikaans         | CC BY-SA 4.0 |
+| Croatian  | croatian-ud-2.1-20180104.udpipe          | xxxMB | UD_Croatian          | CC BY-SA 4.0 |
+| Czech     | czech-cac-ud-2.1-20180104.udpipe         | xxxMB | UD_Czech-CAC         | CC BY-SA 4.0 |
+| Dutch     | dutch-ud-2.1-20180104.udpipe             | xxxMB | UD_Dutch             | CC BY-SA 4.0 |
+| English   | english-ud-2.1-20180104.udpipe           | xxxMB | UD_English           | CC BY-SA 4.0 |
+| Finnish   | finnish-ud-2.1-20180104.udpipe           | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
+| French    | french-sequioa-ud-2.1-20180104.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
+| Irish     | irish-ud-2.1-20180104.udpipe             | xxxMB | UD_Irish             | CC BY-SA 3.0 |
+| Japanese  | japanese-ktc-ud-2.1-20180104.udpipe      | xxxMB | UD_Japanese-KTC      | CC BY-SA 4.0 |
+| Norwegian | norwegian-bokmaal-ud-2.1-20180104.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
+| Persian   | persian-ud-2.1-20180104.udpipe           | xxxMB | UD_Persian           | CC BY-SA 4.0 |
+| Polish    | polish-ud-2.1-20180104.udpipe            | 195MB | UD_Polish            | GPL-3.0      |
+| Portuguese| portuguese-ud-2.1-20180104.udpipe        | xxxMB | UD_Portuguese        | CC BY-SA 4.0 |
+| Romanian  | romanian-ud-2.1-20180104.udpipe          | xxxMB | UD_Romanian          | CC BY-SA 4.0 |
+| Serbian   | serbian-ud-2.1-20180104.udpipe           | xxxMB | UD_Serbian           | CC BY-SA 4.0 |
+| Slovak    | slovak-ud-2.1-20180104.udpipe            | xxxMB | UD_Slovak            | CC BY-SA 4.0 |
+| Spanish   | spanish-ancora-ud-2.1-20180104.udpipe    | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
+| Swedish   | swedish-ud-2.1-20180104.udpipe           | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
+
+Create an issue if languages from Universal Dependencies (http://universaldependencies.org) which you like to have included are missing.
 
 ## Example usage
 
@@ -42,7 +44,7 @@ For more documentation on udpipe: look at the vignettes at https://CRAN.R-projec
 
 ```
 library(udpipe)
-download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/polish/pl-ud-2.1-20180104.udpipe, 
+download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/models/polish-ud-2.1-20180104.udpipe, 
               destfile = "ud_polish.udpipe", mode = "wb")
 m <- udpipe_load_model("ud_polish.udpipe")
 x <- udpipe_annotate(m, "Budynek otrzymany od parafii wymaga remontu, a placówka nie otrzymała jeszcze żadnej dotacji.")
@@ -61,13 +63,13 @@ x
 
 ## Reproduce
 
-The subdirectories contain the models which have .udpipe extension as well as the R code and the log which was used to generate the model.
+In order to reproduce the model, execute the train.R code inside the src/treebank folders. The src/treebank folders the R code and the log which was used to generate the model and contains as well accuracy statistics.
 If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
 
 If you want to build a model just proceed as follows (example on dutch)
 
 ```
-Rscript dutch/train.R > dutch/train.log
+Rscript src/dutch/train.R > src/dutch/train.log
 ```
 
 ## Support in text mining
