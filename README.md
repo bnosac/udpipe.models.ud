@@ -33,6 +33,7 @@ This repository is a collection of linguistic models made with the udpipe R pack
 | Spanish   | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
 | Swedish   | swedish/sv-ud-2.1-20180104.udpipe                   | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
 
+Create an issue if languages from Universal Dependencies which you like to have included are missing.
 
 ## Example usage
 
