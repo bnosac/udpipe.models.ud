@@ -17,10 +17,10 @@ This repository is a collection of linguistic models made with the udpipe R pack
 | Dutch           |                                    | xxx MB      |
 | English         |                                    | xxx MB      |
 | French          |                                    | xxx MB      |
-| German          |                                    | xxx MB      |
-| Italian         |                                    | xxx MB      |
-| Spanish         |                                    | xxx MB      |
 | Polish          | polish/pl-ud-2.1-20180104.udpipe   | 195 MB      |
+| Portuguese      |                                    | xxx MB      |
+| Spanish         |                                    | xxx MB      |
+| Swedish         |                                    | xxx MB      |
 
 
 ## Example usage
