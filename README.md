@@ -4,23 +4,23 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 ## License
 
-- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0
+- The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0 (that repository contains a lot more models for many more languages but under a non-commercial license due to licensing restrictions on the data used for training).
 - Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies that you have obtained.
 - The license for every model included in this repository is specified in the appropriate language/treebank directory. 
-- The R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
+- The .R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
 - The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
 ## Currently available models
 
-| Language        | model name                         | model size  |
-| ----------------|:----------------------------------:| -----------:|
-| Dutch           |                                    | xxx MB      |
-| English         |                                    | xxx MB      |
-| French          |                                    | xxx MB      |
-| Polish          | polish/pl-ud-2.1-20180104.udpipe   | 195 MB      |
-| Portuguese      |                                    | xxx MB      |
-| Spanish         |                                    | xxx MB      |
-| Swedish         |                                    | xxx MB      |
+| Language        | model name                                      | model size  | data source         |
+| ----------------|:-----------------------------------------------:| -----------:| -------------------:|
+| Dutch           | dutch/nl-ud-2.1-20180104.udpipe                 | xxx MB      | UD_Dutch            |
+| English         | english/en-ud-2.1-20180104.udpipe               | xxx MB      | UD_English          |
+| French          | fr_sequoia-ud-2.1-20180104.udpipe               | xxx MB      | UD_French-Sequoia   |
+| Polish          | polish/pl-ud-2.1-20180104.udpipe                | 195 MB      | UD_Polish           |
+| Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe            | xxx MB      | UD_Portuguese       |
+| Spanish         | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe | xxx MB      | UD_Spanish-AnCora   |
+| Swedish         | swedish/sv-ud-2.1-20180104.udpipe               | xxx MB      | UD_Swedish          |
 
 
 ## Example usage
