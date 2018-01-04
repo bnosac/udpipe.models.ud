@@ -20,7 +20,7 @@ if(TRUE){
   download.file(url = settings$ud.test, destfile = "data/test.conllu")
   
   ## Download the word vectors
-  download.file(url = settings$wordvectors, destfile = "data/wordvectors.vec2")
+  download.file(url = settings$wordvectors, destfile = "data/wordvectors.vec")
 }
 
 ## Train the model
