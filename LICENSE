@@ -1,0 +1,6 @@
+This repository is a collection of linguistic models made with the udpipe R package (https://CRAN.R-project.org/package=udpipe). 
+Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies of that you have obtained.
+
+The license for every model included is specified in the appropriate language/treebank directory. 
+
+The R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
