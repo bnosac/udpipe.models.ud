@@ -13,7 +13,7 @@ settings$modelname <- sprintf("%s-ud-2.1-%s.udpipe", settings$treebank, format(s
 settings$modeloutput <- sprintf("%s/%s", settings$language, settings$modelname)
 print(settings)
 
-if(FALSE){
+if(TRUE){
   ## Download the conllu files
   download.file(url = settings$ud.train, destfile = "data/train.conllu")
   download.file(url = settings$ud.dev, destfile = "data/dev.conllu")
