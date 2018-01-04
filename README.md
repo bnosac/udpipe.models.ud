@@ -20,6 +20,7 @@ This repository is a collection of linguistic models made with the udpipe R pack
 | English         | english/en-ud-2.1-20180104.udpipe                | xxx MB      | UD_English          |
 | Finnish         | finnish/fi-ud-2.1-20180104.udpipe                | xxx MB      | UD_Finnish          |
 | French          | french-sequioa/fr_sequoia-ud-2.1-20180104.udpipe | xxx MB      | UD_French-Sequoia   |
+| Irish           | irish/ga-ud-2.1-20180104.udpipe                  | xxx MB      | UD_Irish            |
 | Japanese        | japanese-ktc/ja_ktc-ud-2.1-20180104.udpipe       | xxx MB      | UD_Japanese-KTC     |
 | Polish          | polish/pl-ud-2.1-20180104.udpipe                 | 195 MB      | UD_Polish           |
 | Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe             | xxx MB      | UD_Portuguese       |
