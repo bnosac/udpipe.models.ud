@@ -12,26 +12,26 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 ## Currently available models
 
-| Language        | model name                                          | model size  | data source          | license      |
-| ----------------|-----------------------------------------------------| -----------:|----------------------|--------------|
-| Afrikaans       | afrikaans/af-ud-2.1-20180104.udpipe                 | xxx MB      | UD_Afrikaans         | CC BY-SA 4.0 |
-| Croatian        | croatian/hr-ud-2.1-20180104.udpipe                  | xxx MB      | UD_Croatian          | CC BY-SA 4.0 |
-| Czech           | czech-cac/cs_cac-ud-2.1-20180104.udpipe             | xxx MB      | UD_Czech-CAC         | CC BY-SA 4.0 |
-| Dutch           | dutch/nl-ud-2.1-20180104.udpipe                     | xxx MB      | UD_Dutch             | CC BY-SA 4.0 |
-| English         | english/en-ud-2.1-20180104.udpipe                   | xxx MB      | UD_English           | CC BY-SA 4.0 |
-| Finnish         | finnish/fi-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Finnish           | CC BY-SA 4.0 |
-| French          | french-sequioa/fr_sequoia-ud-2.1-20180104.udpipe    | xxx MB      | UD_French-Sequoia    | LGPL-LR      |
-| Irish           | irish/ga-ud-2.1-20180104.udpipe                     | xxx MB      | UD_Irish             | CC BY-SA 3.0 |
-| Japanese        | japanese-ktc/ja_ktc-ud-2.1-20180104.udpipe          | xxx MB      | UD_Japanese-KTC      | CC BY-SA 4.0 |
-| Norwegian       | norwegian-bokmaal/no_bokmaal-ud-2.1-20180104.udpipe | xxx MB      | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
-| Persian         | persian/fa-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Persian           | CC BY-SA 4.0 |
-| Polish          | polish/pl-ud-2.1-20180104.udpipe                    | 195 MB      | UD_Polish            | GPL-3.0      |
-| Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe                | xxx MB      | UD_Portuguese        | CC BY-SA 4.0 |
-| Romanian        | romanian/ro-ud-2.1-20180104.udpipe                  | xxx MB      | UD_Romanian          | CC BY-SA 4.0 |
-| Serbian         | serbian/sr-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Serbian           | CC BY-SA 4.0 |
-| Slovak          | slovak/sk-ud-2.1-20180104.udpipe                    | xxx MB      | UD_Slovak            | CC BY-SA 4.0 |
-| Spanish         | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxx MB      | UD_Spanish-AnCora    | GPL-3.0      |
-| Swedish         | swedish/sv-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Swedish           | CC BY-SA 4.0 |
+| Language        | model name                                          | size   | data source          | license      |
+| ----------------|-----------------------------------------------------| ------:|----------------------|--------------|
+| Afrikaans       | afrikaans/af-ud-2.1-20180104.udpipe                 | xxx MB | UD_Afrikaans         | CC BY-SA 4.0 |
+| Croatian        | croatian/hr-ud-2.1-20180104.udpipe                  | xxx MB | UD_Croatian          | CC BY-SA 4.0 |
+| Czech           | czech-cac/cs_cac-ud-2.1-20180104.udpipe             | xxx MB | UD_Czech-CAC         | CC BY-SA 4.0 |
+| Dutch           | dutch/nl-ud-2.1-20180104.udpipe                     | xxx MB | UD_Dutch             | CC BY-SA 4.0 |
+| English         | english/en-ud-2.1-20180104.udpipe                   | xxx MB | UD_English           | CC BY-SA 4.0 |
+| Finnish         | finnish/fi-ud-2.1-20180104.udpipe                   | xxx MB | UD_Finnish           | CC BY-SA 4.0 |
+| French          | french-sequioa/fr_sequoia-ud-2.1-20180104.udpipe    | xxx MB | UD_French-Sequoia    | LGPL-LR      |
+| Irish           | irish/ga-ud-2.1-20180104.udpipe                     | xxx MB | UD_Irish             | CC BY-SA 3.0 |
+| Japanese        | japanese-ktc/ja_ktc-ud-2.1-20180104.udpipe          | xxx MB | UD_Japanese-KTC      | CC BY-SA 4.0 |
+| Norwegian       | norwegian-bokmaal/no_bokmaal-ud-2.1-20180104.udpipe | xxx MB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
+| Persian         | persian/fa-ud-2.1-20180104.udpipe                   | xxx MB | UD_Persian           | CC BY-SA 4.0 |
+| Polish          | polish/pl-ud-2.1-20180104.udpipe                    | 195 MB | UD_Polish            | GPL-3.0      |
+| Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe                | xxx MB | UD_Portuguese        | CC BY-SA 4.0 |
+| Romanian        | romanian/ro-ud-2.1-20180104.udpipe                  | xxx MB | UD_Romanian          | CC BY-SA 4.0 |
+| Serbian         | serbian/sr-ud-2.1-20180104.udpipe                   | xxx MB | UD_Serbian           | CC BY-SA 4.0 |
+| Slovak          | slovak/sk-ud-2.1-20180104.udpipe                    | xxx MB | UD_Slovak            | CC BY-SA 4.0 |
+| Spanish         | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxx MB | UD_Spanish-AnCora    | GPL-3.0      |
+| Swedish         | swedish/sv-ud-2.1-20180104.udpipe                   | xxx MB | UD_Swedish           | CC BY-SA 4.0 |
 
 
 ## Example usage
