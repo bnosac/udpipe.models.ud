@@ -23,6 +23,7 @@ This repository is a collection of linguistic models made with the udpipe R pack
 | Irish           | irish/ga-ud-2.1-20180104.udpipe                     | xxx MB      | UD_Irish             |
 | Japanese        | japanese-ktc/ja_ktc-ud-2.1-20180104.udpipe          | xxx MB      | UD_Japanese-KTC      |
 | Norwegian       | norwegian-bokmaal/no_bokmaal-ud-2.1-20180104.udpipe | xxx MB      | UD_Norwegian-Bokmaal |
+| Persian         | persian/fa-ud-2.1-20180104.udpipe                   | xxx MB      | UD_Persian |
 | Polish          | polish/pl-ud-2.1-20180104.udpipe                    | 195 MB      | UD_Polish            |
 | Portuguese      | portuguese/pt-ud-2.1-20180104.udpipe                | xxx MB      | UD_Portuguese        |
 | Spanish         | spanish-ancora/es_ancora-ud-2.1-20180104.udpipe     | xxx MB      | UD_Spanish-AnCora    |
