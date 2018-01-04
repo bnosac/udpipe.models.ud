@@ -12,13 +12,16 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 ## Currently available models
 
-- Dutch
-- English
-- French
-- German
-- Italian
-- Spanish
-- Polish: polish/pl-ud-2.1-20180104.udpipe
+| Language        | model name                         | model size  |
+| ----------------|:----------------------------------:| -----------:|
+| Dutch           |                                    | xxx MB      |
+| English         |                                    | xxx MB      |
+| French          |                                    | xxx MB      |
+| German          |                                    | xxx MB      |
+| Italian         |                                    | xxx MB      |
+| Spanish         |                                    | xxx MB      |
+| Polish          | polish/pl-ud-2.1-20180104.udpipe   | 195 MB      |
+
 
 ## Example usage
 
