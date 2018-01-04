@@ -5,8 +5,8 @@ This repository is a collection of linguistic models made with the udpipe R pack
 ## License
 
 - The models pubished here are models released under a licence which allow for commercial usage in contrast to the models which are made available at https://github.com/jwijffels/udpipe.models.ud.2.0
-- Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies of that you have obtained.
-- The license for every model included is specified in the appropriate language/treebank directory. 
+- Each of the models has its own license terms and you are responsible for complying with the license terms applicable to those parts of the models which you use. If you do not agree with the license terms, you must stop using these models and destroy all copies that you have obtained.
+- The license for every model included in this repository is specified in the appropriate language/treebank directory. 
 - The R source code which is used to build the models is made available under the Mozilla Public License Version 2.0.
 - The data which is used when constructing the models is data from the respective treebanks available at https://github.com/UniversalDependencies and fastText word vectors released at https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
@@ -14,6 +14,12 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 The subdirectories contain the models which have .udpipe extension as well as the R code and the log which was used to generate the model.
 If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
+
+If you want to build a model just proceed as follows (example on dutch)
+
+```
+Rscript dutch/train.R > dutch/train.log
+```
 
 ## Currently available models
 
@@ -23,7 +29,7 @@ If you want to contribute, use a similar flow and submit a pull request. Please 
 - German
 - Italian
 - Spanish
-- Polish: polish/pl-ud-2.1-20180103.udpipe
+- Polish: polish/pl-ud-2.1-20180104.udpipe
 
 ## Example usage
 
@@ -32,7 +38,7 @@ For more documentation on udpipe: look at the vignettes at https://CRAN.R-projec
 
 ```
 library(udpipe)
-download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/polish/pl-ud-2.1-20180103.udpipe, 
+download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/polish/pl-ud-2.1-20180104.udpipe, 
               destfile = "ud_polish.udpipe", mode = "wb")
 m <- udpipe_load_model("ud_polish.udpipe")
 x <- udpipe_annotate(m, "Budynek otrzymany od parafii wymaga remontu, a placówka nie otrzymała jeszcze żadnej dotacji.")
