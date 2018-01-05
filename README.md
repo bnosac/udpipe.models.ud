@@ -16,7 +16,6 @@ The models are located in the models folder and allow to do Tokenisation, POS ta
 | Finnish   | finnish-ud-2.1-20180105.udpipe           | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
 | French    | french-sequoia-ud-2.1-20180105.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
 | Irish     | irish-ud-2.1-20180105.udpipe             | xxxMB | UD_Irish             | CC BY-SA 3.0 |
-| Japanese  | japanese-ktc-ud-2.1-20180105.udpipe      | xxxMB | UD_Japanese-KTC      | CC BY-SA 4.0 |
 | Norwegian | norwegian-bokmaal-ud-2.1-20180105.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
 | Persian   | persian-ud-2.1-20180105.udpipe           | xxxMB | UD_Persian           | CC BY-SA 4.0 |
 | Polish    | polish-ud-2.1-20180105.udpipe            | 195MB | UD_Polish            | GPL-3.0      |
