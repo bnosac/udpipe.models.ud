@@ -8,7 +8,6 @@ Rscript src/english/train.R > src/english/train.log &
 Rscript src/finnish/train.R > src/finnish/train.log &
 Rscript src/french-sequoia/train.R > src/french-sequoia/train.log &
 Rscript src/irish/train.R > src/irish/train.log &
-Rscript src/japanese-ktc/train.R > src/japanese-ktc/train.log &
 Rscript src/norwegian-bokmaal/train.R > src/norwegian-bokmaal/train.log &
 Rscript src/persian/train.R > src/persian/train.log &
 Rscript src/polish/train.R > src/polish/train.log &
