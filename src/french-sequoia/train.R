@@ -3,7 +3,7 @@ library(udpipe)
 settings <- list()
 settings$wd <- getwd()
 settings$date <- Sys.Date()
-settings$language <- "french-sequioa"
+settings$language <- "french-sequoia"
 settings$treebank <- "fr_sequoia"
 settings$ud <- sprintf("https://raw.githubusercontent.com/UniversalDependencies/%s/master", "UD_French-Sequoia")
 settings$ud.train <- sprintf("%s/%s-ud-train.conllu", settings$ud, settings$treebank)

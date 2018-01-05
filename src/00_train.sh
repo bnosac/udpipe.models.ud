@@ -6,7 +6,7 @@ Rscript src/czech-cac/train.R > src/czech-cac/train.log &
 Rscript src/dutch/train.R > src/dutch/train.log &
 Rscript src/english/train.R > src/english/train.log &
 Rscript src/finnish/train.R > src/finnish/train.log &
-Rscript src/french-sequioa/train.R > src/french-sequioa/train.log &
+Rscript src/french-sequoia/train.R > src/french-sequoia/train.log &
 Rscript src/irish/train.R > src/irish/train.log &
 Rscript src/japanese-ktc/train.R > src/japanese-ktc/train.log &
 Rscript src/norwegian-bokmaal/train.R > src/norwegian-bokmaal/train.log &
