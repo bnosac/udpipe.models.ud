@@ -8,23 +8,23 @@ The models are located in the models folder and allow to do Tokenisation, POS ta
 
 | Language  | model name                               | size  | data source          | license      |
 | ----------|------------------------------------------| -----:|----------------------|--------------|
-| Afrikaans | afrikaans-ud-2.1-20180105.udpipe         | xxxMB | UD_Afrikaans         | CC BY-SA 4.0 |
-| Croatian  | croatian-ud-2.1-20180105.udpipe          | xxxMB | UD_Croatian          | CC BY-SA 4.0 |
-| Czech     | czech-cac-ud-2.1-20180105.udpipe         | xxxMB | UD_Czech-CAC         | CC BY-SA 4.0 |
-| Dutch     | dutch-ud-2.1-20180105.udpipe             | xxxMB | UD_Dutch             | CC BY-SA 4.0 |
-| English   | english-ud-2.1-20180105.udpipe           | xxxMB | UD_English           | CC BY-SA 4.0 |
-| Finnish   | finnish-ud-2.1-20180105.udpipe           | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
-| French    | french-sequoia-ud-2.1-20180105.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
-| Irish     | irish-ud-2.1-20180105.udpipe             | xxxMB | UD_Irish             | CC BY-SA 3.0 |
-| Norwegian | norwegian-bokmaal-ud-2.1-20180105.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
-| Persian   | persian-ud-2.1-20180105.udpipe           | xxxMB | UD_Persian           | CC BY-SA 4.0 |
-| Polish    | polish-ud-2.1-20180105.udpipe            | 195MB | UD_Polish            | GPL-3.0      |
-| Portuguese| portuguese-ud-2.1-20180105.udpipe        | xxxMB | UD_Portuguese        | CC BY-SA 4.0 |
-| Romanian  | romanian-ud-2.1-20180105.udpipe          | xxxMB | UD_Romanian          | CC BY-SA 4.0 |
-| Serbian   | serbian-ud-2.1-20180105.udpipe           | xxxMB | UD_Serbian           | CC BY-SA 4.0 |
-| Slovak    | slovak-ud-2.1-20180105.udpipe            | xxxMB | UD_Slovak            | CC BY-SA 4.0 |
-| Spanish   | spanish-ancora-ud-2.1-20180105.udpipe    | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
-| Swedish   | swedish-ud-2.1-20180105.udpipe           | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
+| Afrikaans | afrikaans-ud-2.1-20180111.udpipe         | xxxMB | UD_Afrikaans         | CC BY-SA 4.0 |
+| Croatian  | croatian-ud-2.1-20180111.udpipe          | xxxMB | UD_Croatian          | CC BY-SA 4.0 |
+| Czech     | czech-cac-ud-2.1-20180111.udpipe         | xxxMB | UD_Czech-CAC         | CC BY-SA 4.0 |
+| Dutch     | dutch-ud-2.1-20180111.udpipe             | xxxMB | UD_Dutch             | CC BY-SA 4.0 |
+| English   | english-ud-2.1-20180111.udpipe           | xxxMB | UD_English           | CC BY-SA 4.0 |
+| Finnish   | finnish-ud-2.1-20180111.udpipe           | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
+| French    | french-sequoia-ud-2.1-20180111.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
+| Irish     | irish-ud-2.1-20180111.udpipe             | xxxMB | UD_Irish             | CC BY-SA 3.0 |
+| Norwegian | norwegian-bokmaal-ud-2.1-20180111.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
+| Persian   | persian-ud-2.1-20180111.udpipe           | xxxMB | UD_Persian           | CC BY-SA 4.0 |
+| Polish    | polish-ud-2.1-20180111.udpipe            | xxxMB | UD_Polish            | GPL-3.0      |
+| Portuguese| portuguese-ud-2.1-20180111.udpipe        | xxxMB | UD_Portuguese        | CC BY-SA 4.0 |
+| Romanian  | romanian-ud-2.1-20180111.udpipe          | xxxMB | UD_Romanian          | CC BY-SA 4.0 |
+| Serbian   | serbian-ud-2.1-20180111.udpipe           | xxxMB | UD_Serbian           | CC BY-SA 4.0 |
+| Slovak    | slovak-ud-2.1-20180111.udpipe            | xxxMB | UD_Slovak            | CC BY-SA 4.0 |
+| Spanish   | spanish-ancora-ud-2.1-20180111.udpipe    | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
+| Swedish   | swedish-ud-2.1-20180111.udpipe           | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
 
 Create an issue if languages from Universal Dependencies (http://universaldependencies.org) which you like to have included are missing.
 
@@ -35,7 +35,7 @@ For more documentation on udpipe: look at the vignettes at https://CRAN.R-projec
 
 ```
 library(udpipe)
-download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/models/polish-ud-2.1-20180105.udpipe, 
+download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/models/polish-ud-2.1-20180111.udpipe, 
               destfile = "ud_polish.udpipe", mode = "wb")
 m <- udpipe_load_model("ud_polish.udpipe")
 x <- udpipe_annotate(m, "Budynek otrzymany od parafii wymaga remontu, a placówka nie otrzymała jeszcze żadnej dotacji.")
