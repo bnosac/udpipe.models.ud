@@ -65,14 +65,14 @@ x
 In order to reproduce the model, execute the train.R code inside the src/treebank folders. The src/treebank folders contain the R code and the log which was used to generate the model. The log contains as well accuracy statistics of the model.
 If you want to contribute, use a similar flow and submit a pull request. Please be clear on the license of your model.
 
-If you want to reproduce model building, just proceed as follows (example on dutch) and wait a few hours depending on your CPU power.
+If you want to reproduce model building, install the R packages you need as follows. 
 
 ```
 ## First make sure you have the necessary R packages installed
 install.packages("udpipe")
 devtools::install_github("bmschmidt/wordVectors")
 ```
-And next you can start building the models.
+And next you can start building the models. Just proceed as follows (example on dutch) and wait a few hours depending on your CPU power.
 
 ```
 Rscript src/dutch/train.R > src/dutch/train.log
