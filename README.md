@@ -68,8 +68,17 @@ If you want to contribute, use a similar flow and submit a pull request. Please 
 If you want to reproduce model building, just proceed as follows (example on dutch) and wait a few hours depending on your CPU power.
 
 ```
+## First make sure you have the necessary R packages installed
+install.packages("udpipe")
+devtools::install_github("bmschmidt/wordVectors")
+```
+And next you can start building the models.
+
+```
 Rscript src/dutch/train.R > src/dutch/train.log
 ```
+
+Mark that the `wordVectors` package is used only to train our own word vectors, which is usefull if you want to train a model which does dependency parsing. You can also download these wordvectors from Facebook or build these with the `text2vec` R package. We chose the `wordVectors` package because it was the closest to the original UDPipe paper.
 
 ## Support in text mining
 
