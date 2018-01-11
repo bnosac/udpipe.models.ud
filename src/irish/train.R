@@ -16,15 +16,20 @@ settings$modeloutput <- file.path(getwd(), "models", sprintf("%s", settings$mode
 print(settings)
 setwd(sprintf("src/%s", settings$language))
 dir.create("data")
+source("../utils.R")
 
 if(TRUE){
   ## Download the conllu files
   download.file(url = settings$ud.train, destfile = "data/train.conllu")
   download.file(url = settings$ud.dev, destfile = "data/dev.conllu")
   download.file(url = settings$ud.test, destfile = "data/test.conllu")
-  
-  ## Download the word vectors
-  download.file(url = settings$wordvectors, destfile = "data/wordvectors.vec")
+  if(TRUE){
+    ## Create wordvectors ourselves
+    wordvectors_conllu(file_input = "data/train.conllu", file_output = "data/wordvectors.vec")  
+  }else{
+    ## Download the word vectors
+    download.file(url = settings$wordvectors, destfile = "data/wordvectors.vec")
+  }
 }
 
 ## Train the model
@@ -43,7 +48,7 @@ m <- udpipe_train(file = settings$modeloutput,
                                            use_feats_2 = 0, provide_lemma_2 = 1, provide_xpostag_2 = 0, 
                                            provide_feats_2 = 0, prune_features_2 = 0),
                   annotation_parser = list(iterations = 30, embedding_upostag = 20, embedding_feats = 20, 
-                                           embedding_xpostag = 0, embedding_form = 300, embedding_form_file = "data/wordvectors.vec", 
+                                           embedding_xpostag = 0, embedding_form = 50, embedding_form_file = "data/wordvectors.vec", 
                                            embedding_lemma = 0, embedding_deprel = 20, learning_rate = 0.02, 
                                            learning_rate_final = 0.001, l2 = 0.5, hidden_layer = 200, 
                                            batch_size = 10, transition_system = "projective", transition_oracle = "dynamic", 
@@ -52,7 +57,11 @@ print(Sys.time())
 
 ## Evaluate the accuracy
 m <- udpipe_load_model(settings$modeloutput)
-goodness_of_fit <- udpipe_accuracy(m, "data/test.conllu")
+goodness_of_fit <- udpipe_accuracy(m, "data/test.conllu", tokenizer = "default", tagger = "default", parser = "default")
+cat(goodness_of_fit$accuracy, sep = "\n") 
+goodness_of_fit <- udpipe_accuracy(m, "data/test.conllu", tokenizer = "none", tagger = "default", parser = "default")
+cat(goodness_of_fit$accuracy, sep = "\n") 
+goodness_of_fit <- udpipe_accuracy(m, "data/test.conllu", tokenizer = "none", tagger = "none", parser = "default")
 cat(goodness_of_fit$accuracy, sep = "\n") 
 
 ## Reset working directory
