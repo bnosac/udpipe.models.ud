@@ -190,4 +190,32 @@ Iteration 10: training logprob -1.2743e+05, heldout UAS 86.45%, LAS 83.28%
 Iteration 11: training logprob -1.1982e+05, heldout UAS 86.36%, LAS 83.18%
 Iteration 12: training logprob -1.1640e+05, heldout UAS 85.97%, LAS 82.84%
 Iteration 13: training logprob -1.1091e+05, heldout UAS 85.17%, LAS 82.12%
-Iteration 14: 
+Iteration 14: training logprob -1.0567e+05, heldout UAS 86.52%, LAS 83.37%
+Iteration 15: training logprob -1.0319e+05, heldout UAS 86.44%, LAS 83.26%
+Iteration 16: training logprob -9.9124e+04, heldout UAS 86.79%, LAS 83.72%
+Iteration 17: training logprob -9.7042e+04, heldout UAS 86.58%, LAS 83.45%
+Iteration 18: training logprob -9.5384e+04, heldout UAS 86.77%, LAS 83.70%
+Iteration 19: training logprob -9.3580e+04, heldout UAS 86.53%, LAS 83.53%
+Iteration 20: training logprob -9.4769e+04, heldout UAS 86.66%, LAS 83.62%
+Iteration 21: training logprob -9.3519e+04, heldout UAS 86.86%, LAS 83.83%
+Iteration 22: training logprob -9.3022e+04, heldout UAS 87.05%, LAS 84.02%
+Iteration 23: training logprob -9.5851e+04, heldout UAS 86.69%, LAS 83.63%
+Iteration 24: training logprob -9.4401e+04, heldout UAS 87.02%, LAS 84.01%
+Iteration 25: training logprob -9.3463e+04, heldout UAS 86.90%, LAS 83.92%
+Iteration 26: training logprob -9.5353e+04, heldout UAS 87.17%, LAS 84.16%
+Iteration 27: training logprob -9.5727e+04, heldout UAS 86.99%, LAS 84.02%
+Iteration 28: training logprob -9.7498e+04, heldout UAS 87.00%, LAS 83.96%
+Iteration 29: training logprob -9.8567e+04, heldout UAS 86.75%, LAS 83.77%
+Iteration 30: training logprob -9.8661e+04, heldout UAS 86.95%, LAS 84.03%
+Using early stopping -- choosing network from iteration 26
+[1] "2018-01-12 21:18:02 UTC"
+Number of SpaceAfter=No features in gold data: 5946
+Tokenizer tokens - system: 52436, gold: 52433, precision: 99.97%, recall: 99.98%, f1: 99.97%
+Tokenizer multiword tokens - system: 179, gold: 184, precision: 98.88%, recall: 96.20%, f1: 97.52%
+Tokenizer words - system: 52615, gold: 52617, precision: 99.96%, recall: 99.96%, f1: 99.96%
+Tokenizer sentences - system: 1725, gold: 1721, precision: 97.80%, recall: 98.02%, f1: 97.91%
+Tagging from plain text (CoNLL17 F1 score) - gold forms: 52617, upostag: 98.14%, xpostag: 98.14%, feats: 97.56%, alltags: 96.88%, lemmas: 98.05%
+Parsing from plain text with computed tags (CoNLL17 F1 score) - gold forms: 52617, UAS: 87.40%, LAS: 84.33%
+Tagging from gold tokenization - forms: 52617, upostag: 98.18%, xpostag: 98.18%, feats: 97.61%, alltags: 96.93%, lemmas: 98.09%
+Parsing from gold tokenization with computed tags - forms: 52617, UAS: 87.61%, LAS: 84.53%
+Parsing from gold tokenization with gold tags - forms: 52617, UAS: 90.05%, LAS: 87.49%
