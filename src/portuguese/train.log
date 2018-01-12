@@ -239,3 +239,6 @@ Tokenizer words - system: 10204, gold: 10201, precision: 99.51%, recall: 99.54%,
 Tokenizer sentences - system: 461, gold: 477, precision: 87.42%, recall: 84.49%, f1: 85.93%
 Tagging from plain text (CoNLL17 F1 score) - gold forms: 10201, upostag: 96.25%, xpostag: 72.81%, feats: 93.33%, alltags: 71.66%, lemmas: 96.80%
 Parsing from plain text with computed tags (CoNLL17 F1 score) - gold forms: 10201, UAS: 85.04%, LAS: 81.75%
+Tagging from gold tokenization - forms: 10201, upostag: 96.77%, xpostag: 73.22%, feats: 93.69%, alltags: 72.04%, lemmas: 97.29%
+Parsing from gold tokenization with computed tags - forms: 10201, UAS: 86.51%, LAS: 83.15%
+Parsing from gold tokenization with gold tags - forms: 10201, UAS: 88.87%, LAS: 86.74%
