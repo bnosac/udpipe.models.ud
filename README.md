@@ -35,7 +35,7 @@ For more documentation on udpipe: look at the vignettes at https://CRAN.R-projec
 
 ```
 library(udpipe)
-download.file(url = https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/models/polish-ud-2.1-20180111.udpipe, 
+download.file(url = "https://raw.githubusercontent.com/bnosac/udpipe.models.ud/master/models/polish-ud-2.1-20180111.udpipe", 
               destfile = "ud_polish.udpipe", mode = "wb")
 m <- udpipe_load_model("ud_polish.udpipe")
 x <- udpipe_annotate(m, "Budynek otrzymany od parafii wymaga remontu, a placówka nie otrzymała jeszcze żadnej dotacji.")
