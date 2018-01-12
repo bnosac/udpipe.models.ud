@@ -219,4 +219,30 @@ Iteration 12: training logprob -1.3985e+05, heldout UAS 84.54%, LAS 80.23%
 Iteration 13: training logprob -1.3351e+05, heldout UAS 84.69%, LAS 80.65%
 Iteration 14: training logprob -1.3134e+05, heldout UAS 84.75%, LAS 80.64%
 Iteration 15: training logprob -1.2346e+05, heldout UAS 84.62%, LAS 80.50%
-Iteration 16: 
+Iteration 16: training logprob -1.1988e+05, heldout UAS 85.14%, LAS 81.00%
+Iteration 17: training logprob -1.1719e+05, heldout UAS 84.81%, LAS 80.54%
+Iteration 18: training logprob -1.1638e+05, heldout UAS 84.92%, LAS 80.77%
+Iteration 19: training logprob -1.1470e+05, heldout UAS 84.88%, LAS 80.81%
+Iteration 20: training logprob -1.1419e+05, heldout UAS 85.38%, LAS 81.41%
+Iteration 21: training logprob -1.1367e+05, heldout UAS 85.25%, LAS 81.26%
+Iteration 22: training logprob -1.1345e+05, heldout UAS 85.13%, LAS 81.11%
+Iteration 23: training logprob -1.1313e+05, heldout UAS 85.36%, LAS 81.32%
+Iteration 24: training logprob -1.1378e+05, heldout UAS 85.06%, LAS 80.98%
+Iteration 25: training logprob -1.1486e+05, heldout UAS 85.21%, LAS 81.11%
+Iteration 26: training logprob -1.1523e+05, heldout UAS 84.99%, LAS 81.16%
+Iteration 27: training logprob -1.1792e+05, heldout UAS 85.97%, LAS 81.89%
+Iteration 28: training logprob -1.2002e+05, heldout UAS 85.20%, LAS 81.24%
+Iteration 29: training logprob -1.1954e+05, heldout UAS 85.15%, LAS 81.39%
+Iteration 30: training logprob -1.2260e+05, heldout UAS 85.45%, LAS 81.57%
+Using early stopping -- choosing network from iteration 27
+[1] "2018-01-12 18:52:27 UTC"
+Number of SpaceAfter=No features in gold data: 1402
+Tokenizer tokens - system: 10822, gold: 10824, precision: 99.98%, recall: 99.96%, f1: 99.97%
+Tokenizer multiword tokens - system: 38, gold: 38, precision: 97.37%, recall: 97.37%, f1: 97.37%
+Tokenizer words - system: 10860, gold: 10862, precision: 99.97%, recall: 99.95%, f1: 99.96%
+Tokenizer sentences - system: 629, gold: 628, precision: 99.68%, recall: 99.84%, f1: 99.76%
+Tagging from plain text (CoNLL17 F1 score) - gold forms: 10862, upostag: 98.17%, xpostag: 90.22%, feats: 89.16%, alltags: 88.86%, lemmas: 96.87%
+Parsing from plain text with computed tags (CoNLL17 F1 score) - gold forms: 10862, UAS: 86.12%, LAS: 82.61%
+Tagging from gold tokenization - forms: 10862, upostag: 98.20%, xpostag: 90.26%, feats: 89.20%, alltags: 88.90%, lemmas: 96.90%
+Parsing from gold tokenization with computed tags - forms: 10862, UAS: 86.21%, LAS: 82.66%
+Parsing from gold tokenization with gold tags - forms: 10862, UAS: 89.37%, LAS: 87.03%
