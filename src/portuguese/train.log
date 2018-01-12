@@ -229,4 +229,13 @@ Iteration 26: training logprob -5.8831e+04, heldout UAS 86.88%, LAS 83.54%
 Iteration 27: training logprob -6.1377e+04, heldout UAS 87.88%, LAS 84.30%
 Iteration 28: training logprob -6.2369e+04, heldout UAS 87.74%, LAS 84.39%
 Iteration 29: training logprob -6.1836e+04, heldout UAS 87.24%, LAS 83.85%
-Iteration 30: 
+Iteration 30: training logprob -6.2956e+04, heldout UAS 87.58%, LAS 84.10%
+Using early stopping -- choosing network from iteration 28
+[1] "2018-01-12 08:53:49 UTC"
+Number of SpaceAfter=No features in gold data: 1335
+Tokenizer tokens - system: 9453, gold: 9460, precision: 99.68%, recall: 99.61%, f1: 99.65%
+Tokenizer multiword tokens - system: 751, gold: 741, precision: 98.67%, recall: 100.00%, f1: 99.33%
+Tokenizer words - system: 10204, gold: 10201, precision: 99.51%, recall: 99.54%, f1: 99.52%
+Tokenizer sentences - system: 461, gold: 477, precision: 87.42%, recall: 84.49%, f1: 85.93%
+Tagging from plain text (CoNLL17 F1 score) - gold forms: 10201, upostag: 96.25%, xpostag: 72.81%, feats: 93.33%, alltags: 71.66%, lemmas: 96.80%
+Parsing from plain text with computed tags (CoNLL17 F1 score) - gold forms: 10201, UAS: 85.04%, LAS: 81.75%
