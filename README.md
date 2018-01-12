@@ -6,25 +6,25 @@ This repository is a collection of linguistic models made with the udpipe R pack
 
 The models are located in the models folder and allow to do Tokenisation, POS tagging, Lemmatisation and Dependency Parsing for the following languages.
 
-| Language  | model name                               | size  | data source          | license      |
-| ----------|------------------------------------------| -----:|----------------------|--------------|
-| Afrikaans | afrikaans-ud-2.1-20180111.udpipe         | xxxMB | UD_Afrikaans         | CC BY-SA 4.0 |
-| Croatian  | croatian-ud-2.1-20180111.udpipe          | xxxMB | UD_Croatian          | CC BY-SA 4.0 |
-| Czech     | czech-cac-ud-2.1-20180111.udpipe         | xxxMB | UD_Czech-CAC         | CC BY-SA 4.0 |
-| Dutch     | dutch-ud-2.1-20180111.udpipe             | xxxMB | UD_Dutch             | CC BY-SA 4.0 |
-| English   | english-ud-2.1-20180111.udpipe           | xxxMB | UD_English           | CC BY-SA 4.0 |
-| Finnish   | finnish-ud-2.1-20180111.udpipe           | xxxMB | UD_Finnish           | CC BY-SA 4.0 |
-| French    | french-sequoia-ud-2.1-20180111.udpipe    | xxxMB | UD_French-Sequoia    | LGPL-LR      |
-| Irish     | irish-ud-2.1-20180111.udpipe             | xxxMB | UD_Irish             | CC BY-SA 3.0 |
-| Norwegian | norwegian-bokmaal-ud-2.1-20180111.udpipe | xxxMB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
-| Persian   | persian-ud-2.1-20180111.udpipe           | xxxMB | UD_Persian           | CC BY-SA 4.0 |
-| Polish    | polish-ud-2.1-20180111.udpipe            | xxxMB | UD_Polish            | GPL-3.0      |
-| Portuguese| portuguese-ud-2.1-20180111.udpipe        | xxxMB | UD_Portuguese        | CC BY-SA 4.0 |
-| Romanian  | romanian-ud-2.1-20180111.udpipe          | xxxMB | UD_Romanian          | CC BY-SA 4.0 |
-| Serbian   | serbian-ud-2.1-20180111.udpipe           | xxxMB | UD_Serbian           | CC BY-SA 4.0 |
-| Slovak    | slovak-ud-2.1-20180111.udpipe            | xxxMB | UD_Slovak            | CC BY-SA 4.0 |
-| Spanish   | spanish-ancora-ud-2.1-20180111.udpipe    | xxxMB | UD_Spanish-AnCora    | GPL-3.0      |
-| Swedish   | swedish-ud-2.1-20180111.udpipe           | xxxMB | UD_Swedish           | CC BY-SA 4.0 |
+| Language  | model name                               | size    | data source          | license      |
+| ----------|------------------------------------------| -------:|----------------------|--------------|
+| Afrikaans | afrikaans-ud-2.1-20180111.udpipe         |  4.6 MB | UD_Afrikaans         | CC BY-SA 4.0 |
+| Croatian  | croatian-ud-2.1-20180111.udpipe          | 20.4 MB | UD_Croatian          | CC BY-SA 4.0 |
+| Czech     | czech-cac-ud-2.1-20180111.udpipe         | 30.0 MB | UD_Czech-CAC         | CC BY-SA 4.0 |
+| Dutch     | dutch-ud-2.1-20180111.udpipe             | 15.4 MB | UD_Dutch             | CC BY-SA 4.0 |
+| English   | english-ud-2.1-20180111.udpipe           | 15.6 MB | UD_English           | CC BY-SA 4.0 |
+| Finnish   | finnish-ud-2.1-20180111.udpipe           | 24.2 MB | UD_Finnish           | CC BY-SA 4.0 |
+| French    | french-sequoia-ud-2.1-20180111.udpipe    |  5.7 MB | UD_French-Sequoia    | LGPL-LR      |
+| Irish     | irish-ud-2.1-20180111.udpipe             |  2.5 MB | UD_Irish             | CC BY-SA 3.0 |
+| Norwegian | norwegian-bokmaal-ud-2.1-20180111.udpipe | 17.6 MB | UD_Norwegian-Bokmaal | CC BY-SA 4.0 |
+| Persian   | persian-ud-2.1-20180111.udpipe           | 11.6 MB | UD_Persian           | CC BY-SA 4.0 |
+| Polish    | polish-ud-2.1-20180111.udpipe            | 11.9 MB | UD_Polish            | GPL-3.0      |
+| Portuguese| portuguese-ud-2.1-20180111.udpipe        | 18.0 MB | UD_Portuguese        | CC BY-SA 4.0 |
+| Romanian  | romanian-ud-2.1-20180111.udpipe          | 14.6 MB | UD_Romanian          | CC BY-SA 4.0 |
+| Serbian   | serbian-ud-2.1-20180111.udpipe           |  8.6 MB | UD_Serbian           | CC BY-SA 4.0 |
+| Slovak    | slovak-ud-2.1-20180111.udpipe            | 17.1 MB | UD_Slovak            | CC BY-SA 4.0 |
+| Spanish   | spanish-ancora-ud-2.1-20180111.udpipe    | 20.2 MB | UD_Spanish-AnCora    | GPL-3.0      |
+| Swedish   | swedish-ud-2.1-20180111.udpipe           |  7.8 MB | UD_Swedish           | CC BY-SA 4.0 |
 
 Create an issue if languages from Universal Dependencies (http://universaldependencies.org) which you like to have included are missing.
 
